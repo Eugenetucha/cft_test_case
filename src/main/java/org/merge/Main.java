@@ -1,6 +1,7 @@
 package org.merge;
 
 
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -26,7 +27,7 @@ public class Main {
                     StringMerge stringMerge = new StringMerge();
                     stringMerge.merge();
                 }
-                case "-i" ->{
+                case "-i" -> {
                     SYM_NUM = Args.NUMBER;
                     IntegerMerge integerMerge = new IntegerMerge();
                     integerMerge.merge();
